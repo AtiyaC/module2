@@ -13,7 +13,7 @@ polygon = turtle.Turtle() #creates a new turtle object that can draw on the scre
 #    b) `side_length` = length of each side.
 #    c) Calculate the turning angle using `angle = 360.0 / num_sides`.
 num_sides = 6
-side_length = 3
+side_length = 70
 angle = 360.0 / num_sides
 # 5) Use a loop to draw the polygon:
 #    a) Repeat `num_sides` times.
@@ -24,4 +24,4 @@ for i in range(num_sides):
     polygon.right(angle)
 
 # 6) Call `turtle.done()` to keep the turtle window open after drawing finishes.
-# turtle.done() 
+turtle.done() 
